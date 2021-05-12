@@ -10,7 +10,7 @@ body {
 
 .HauptContainer {
     width: 1000px;
-    height: 1800px;
+    height: 2650px;
     border: 1px solid #000;
 }
 
@@ -94,6 +94,47 @@ h2 {
     margin: 10px 20px;
 }
 
+.Ueberuns
+{
+    width: 100%;
+    height: 350px;
+    padding-top: 35px;
+    background-color:#f5f8fc;
+    text-align: center;
+    font-size: 13px;
+    line-height: 20px;
+    color:#7d838a;
+}
+
+.Ueberuns h2, .Ueberuns a
+{
+   color:black;
+}
+.Ueberuns a
+{
+    font-weight: 500;
+}
+.Ueberuns .unten
+{
+    width: 100%;
+    height: 150px;
+    background-color: #4a4ce7;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.horizontal hr
+{
+    margin: 60px 0 80px 0;
+    color: #0000ffd3;
+    border: 1.5px solid #0000ffd3;
+}
+
+
+
 .Wohnungs {
     width: 1000px;
     height: auto;
@@ -131,4 +172,58 @@ span {
     width: 24px;
     height: 24px;
     margin-top: 8px;
+}
+footer
+{
+    margin-top: 150px;
+    width: 1000px;
+    height: 370px;
+    background-color: #f5f8fc;
+    padding: 40px 40px 40px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+}
+.obenBox
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.card
+{
+    width: 33.32%;
+    height: 250px;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+.card img
+{
+    width: 150px;
+    height: 73px;
+}
+.card p, .card li, .card li a
+{
+    color: #7d838a;
+}
+.card h3
+{
+    font-weight: 700;
+}
+.untenHorizontal
+{
+    width: 100%;
+}
+.untenHorizontal hr
+{
+    color: #7d838a;
+}
+.copyright
+{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
